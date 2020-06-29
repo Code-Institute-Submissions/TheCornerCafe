@@ -1,39 +1,47 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+#The Corner Café
 
-Welcome USER_NAME,
+This website is designed to advertise a fictional café, known as 'The Corner Café'.
+The purpose for external users is to find out more information about the café, such as location, opening times, and menus.
+The purpose as the site owner is to attract customers and gain potential clients.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+##UX
 
-## Gitpod Reminders
+##Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+###Existing Features
 
-`python3 -m http.server`
+Heading and navbar have been added. links to other pages.
 
-A blue button should appear to click: *Make Public*,
+###Features left to implement
 
-Another blue button should appear to click: *Open Browser*.
+*Need to fix logo.
+*Add jumbotron image
+*Add Google maps link
+*Add background colour for body of page
+*Add more fonts
+*Add footer
+*Add social media links
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+##Technologies Used
 
-A blue button should appear to click: *Make Public*,
+*Bootstrap CDN version 4.5.0
+*Font-Awesome CDN version 4.7.0
+*Google Fonts
 
-Another blue button should appear to click: *Open Browser*.
+##Testing
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+##Deployment
 
-## Updates Since The Instructional Video
+##Credits
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+###Content
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+###Media
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The main logo for the website uses a combination of two images, which I have edited together myself using https://www.online-image-editor.com/.
+The image colors were altered to black using https://onlinepngtools.com/change-png-color
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Image 1. http://icon-library.com/icon/coffee-mug-icon-0.html
+Image 2.https://www.onlygfx.com/wp-content/uploads/2017/04/coffee-ring-4.png.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+#Acknowledgement
