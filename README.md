@@ -11,6 +11,7 @@ The purpose as the site owner is to attract customers and gain potential clients
 ###Existing Features
 
 Heading and navbar have been added. links to other pages.
+Styling to heading and nav items completed.
 
 ###Features left to implement
 

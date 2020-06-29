@@ -1,8 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Roboto+Slab:wght@300&display=swap');
 
 /*----------Colors*/
 
+.bg-color-name{
+    background-color: #d50000;
+}
+
+.ui-nav-color{
+    background-color: #d50000;
+}
+
+a:link{
+    color: #fff;
+}
+
+a:visited{
+    color: #fff;
+}
+
+a:hover, a:active{
+    background-color: #9b0000;
+}
+
+.list-inline-item:hover{
+    background-color: #9b0000;
+}
+
 /*----------Header*/
+header{
+    margin: 0;
+}
+
+.heading {
+    margin: 25px;
+}
+
+logo {
+    background:url("..images/corner-cafe-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+
+.menucontainer{
+    font-size: 0;
+}
+
+#nav li{
+    font-family: 'Almarai', sans-serif;
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+}
 
 /*----------Content*/
 
