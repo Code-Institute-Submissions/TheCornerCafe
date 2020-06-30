@@ -12,16 +12,17 @@ The purpose as the site owner is to attract customers and gain potential clients
 
 Heading and navbar have been added. links to other pages.
 Styling to heading and nav items completed.
+Added FontAwesome icons to heading.
+Added footer.
+Added social media links.
+Added transitions to navigation.
+Added background colour to body.
 
 ###Features left to implement
 
 *Need to fix logo.
 *Add jumbotron image
 *Add Google maps link
-*Add background colour for body of page
-*Add more fonts
-*Add footer
-*Add social media links
 
 ##Technologies Used
 

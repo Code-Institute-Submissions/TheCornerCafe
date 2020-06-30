@@ -2,6 +2,10 @@
 
 /*----------Colors*/
 
+body {
+    background-color: #eeeeee;
+}
+
 .bg-color-name{
     background-color: #d50000;
 }
@@ -10,15 +14,11 @@
     background-color: #d50000;
 }
 
-a:link{
+a, a:hover{
     color: #fff;
 }
 
-a:visited{
-    color: #fff;
-}
-
-a:hover, a:active{
+.logo:hover{
     background-color: #9b0000;
 }
 
@@ -26,7 +26,42 @@ a:hover, a:active{
     background-color: #9b0000;
 }
 
+.bg-styling:hover{
+    background-color: #9b0000;
+}
+/*----------Special Styling*/
+
+.general-sub{
+    font-family: 'Almarai', sans-serif;
+    font-weight: 300;
+    padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
+#nav li:hover{
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.bg-styling{
+    width: 28px;
+    color: #fff;
+    background-color: #d50000;
+}
+
+.bg-styling:hover{
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+
 /*----------Header*/
+
 header{
     margin: 0;
 }
@@ -35,14 +70,16 @@ header{
     margin: 25px;
 }
 
-logo {
-    background:url("..images/corner-cafe-logo.png");
+.logo {
+    background:url(/images/CCLogo.png);
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 360px;
+    background-color: #d50000;
+    min-height: 134px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    display: inline-block;
 }
 
 .name {
@@ -51,6 +88,10 @@ logo {
     font-size: 40px;
     color: #fff;
     text-align: center;
+}
+
+ul {
+    margin: 0;
 }
 
 .list-inline-item:not(:last-child){
@@ -62,7 +103,7 @@ logo {
 }
 
 #nav li{
-    font-family: 'Almarai', sans-serif;
+    font-weight: 400;
     font-size: 24px;
     padding: 0;
     text-align: center;
@@ -71,3 +112,20 @@ logo {
 /*----------Content*/
 
 /*----------Footer*/
+
+footer {
+    background-color: #d50000;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    min-height: 136px;
+    margin: 0 auto;
+}
+
+.social-links{
+    font-size: 1.5rem;
+    width: 100%;
+}
