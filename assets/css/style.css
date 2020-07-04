@@ -77,9 +77,6 @@ header{
     background-repeat: no-repeat;
     background-color: #d50000;
     min-height: 134px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
     display: inline-block;
 }
 
@@ -213,6 +210,27 @@ form .container {
 
 form .container p {
     margin: 0px;
+}
+
+input[type=text] {
+    width: 240px;
+    display: inline-block;
+    border: 1px solid #d50000;
+}
+
+input[type=submit] {
+    background-color: #d50000;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #9b0000;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /*----------Footer*/
