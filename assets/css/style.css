@@ -71,7 +71,6 @@ header{
 }
 
 .logo {
-    background:url(/images/CCLogo.png);
     background:url("../images/CCLogo.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -114,7 +113,7 @@ ul {
 
 /*---------- Carousel styling*/
 
-.container-fluid{
+.container-fluid {
     height: 30%;
     width: 100%;
     padding: 0;
@@ -195,6 +194,42 @@ ul {
     text-align: center;
 }
 
+/*----------About Us Content*/
+
+#about-us-bg {
+    background:url("../images/about-us.jpeg");
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-size: cover;
+    padding: 0;
+    margin: auto;
+    height: 50%;
+}
+
+#about-info{
+    background-color: rgba(140, 140, 140, 0.3);
+    color: #fff;
+    padding: 16px;
+}
+
+#about-heading {
+    font-family: 'Almarai', sans-serif;
+    font-size: 28px; 
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    padding-top: 10px;
+}
+
+.about-text {
+    font-family: 'Almarai', sans-serif;
+    font-size: 18px; 
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    padding: 20px;
+}
+
 /*----------Newsletter Signup*/
 
 form {
@@ -231,6 +266,11 @@ input[type=submit]:hover {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+form .about-newsletter {
+    color: #fff;
+    text-shadow: 1px 1px #000;
 }
 
 /*----------Footer*/
