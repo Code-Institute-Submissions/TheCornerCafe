@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--Bootstrap CDN-->
+<!--Bootstrap CSS CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" >
 <!--Font-Awesome CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" >
 <!--CSS Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Corner Café</title>
+<!--JQuery Script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!--Bootstrap JS CDN-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 
 <body>
 <!--Page header and logo-->
-    <header>
+    <header class="container-fluid">
         <div class=" row no-gutters">
-            <a class="col-md-4 logo" href="index.html">
-            </a>
+            <a class="col-md-4 logo" href="index.html"></a>
 
             <div class="col-md-8">
                 <div class="row no-gutters bg-color-name">
@@ -30,13 +33,15 @@
 <!--Navigation links-->
                 <div class="row no-gutters">
                     <div class="col">
-                        <ul id="nav" class="list-inline ui-nav-color menucontainer">
+                        <ul class="list-inline ui-nav-color menucontainer nav">
                             <li class="col col-md-3 list-inline-item general-sub">
                                 <a href="menu.html"><span><i class="fa fa-coffee" aria-hidden="true"></i> &nbsp; Menu</span></a>
                             </li>
                             <li class="col col-md-3 list-inline-item general-sub">
                                 <a href="about-us.html"><span><i class="fa fa-question" aria-hidden="true"></i> &nbsp; About Us</span></a>
                             </li>
+                        </ul>
+                        <ul class="list-inline ui-nav-color menucontainer nav">
                             <li class="col col-md-3 list-inline-item general-sub">
                                 <a href="gallery.html.html"><span><i class="fa fa-image" aria-hidden="true"></i> &nbsp; Gallery</span></a>
                             </li>
@@ -51,8 +56,23 @@
     </header>
 
 <!--Main content of page-->
-<!--Google map and business hours-->
+
 <!--Newsletter signup-->
+<form action="#">
+    <div class="container">
+        <h3>Subscribe to our newsletter</h3>
+        <p>and get 10% off your first order!</p>
+        <p>Email Address:</p>
+    </div>
+
+    <div class="container">
+        <input type="text" placeholder="coffeemad@thecornercafe.com" name="mail" required>
+    </div>
+
+    <div class="container">
+        <input type="submit" value="Subscribe Now!">
+    </div>
+</form>
 
 <!--Page footer and social media links-->
 <footer class="container-fluid">

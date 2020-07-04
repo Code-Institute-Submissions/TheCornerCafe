@@ -18,11 +18,15 @@ Added social media links.
 Added transitions to navigation.
 Added background colour to body.
 Added main logo
+Fixed responsive design
+Added Google maps link
+Added opening times
+Added Newsletter signup form
+Fixed navigation on all screen sizes
 
 ###Features left to implement
 
-*Add jumbotron image
-*Add Google maps link
+*add gallery, menu, and contact us form
 
 ##Technologies Used
 
