@@ -62,6 +62,10 @@ a:link, a:visited, a:hover, a:active{
 
 /*----------Header*/
 
+.container-body {
+    padding: 0;
+}
+
 header{
     margin: 0;
 }
@@ -116,7 +120,7 @@ ul {
 
 /*Index.html carrousel styling*/
 
-.container-fluid {
+.carousel-container{
     height: 30%;
     width: 100%;
     padding: 0;
@@ -211,10 +215,19 @@ ul {
     height: 50%;
 }
 
-#about-info{
+#about-info {
     background-color: rgba(140, 140, 140, 0.3);
     color: #fff;
     padding: 16px;
+}
+
+#about-info a {
+    color: #d50000;
+}
+
+#about-info a:hover {
+    color: #d50000;
+    text-decoration: underline;
 }
 
 #about-heading {
@@ -233,6 +246,65 @@ ul {
     color: #fff;
     opacity: 1;
     padding: 20px;
+}
+
+/*----------Contact Us content*/
+
+#contact-us-bg {
+    background:url("../images/contact-us-bg.jpeg");
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-size: cover;
+    padding: 0;
+    height: 100%;
+}
+
+.jumbotron {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #fff;
+    background-color: #d50000;
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.jumbotron h1 {
+    text-decoration: underline;
+}
+
+#contact-form {
+    background-color: rgba(140, 140, 140, 0.3);
+    color: #fff;
+    padding: 16px;
+}
+
+#contact-heading {
+    font-family: 'Almarai', sans-serif;
+    font-size: 28px; 
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    padding-top: 10px;
+}
+
+.contact-text {
+    font-family: 'Almarai', sans-serif;
+    font-size: 18px; 
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+/*----------Modified from https://www.w3schools.com/tags/tag_textarea.asp*/
+
+textarea {
+    width: 240px;
+    display: inline-block;
+    border: 1px solid #d50000;
 }
 
 /*----------Newsletter Signup (Modified from https://www.w3schools.com/howto/howto_css_newsletter.asp)*/
@@ -263,6 +335,8 @@ input[type=submit] {
     color: #fff;
     border: none;
     text-align: center;
+    margin: 10px;
+    display: inline-block;
 }
 
 input[type=submit]:hover {
@@ -274,6 +348,11 @@ input[type=submit]:hover {
 }
 
 form .about-newsletter {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+form .contact-newsletter {
     color: #fff;
     text-shadow: 1px 1px #000;
 }

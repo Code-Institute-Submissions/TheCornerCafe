@@ -19,7 +19,7 @@
 
 <body>
 <!--Page header and logo-->
-    <header class="container-fluid">
+    <header class="container-fluid container-body">
         <div class=" row no-gutters">
             <a class="col-md-4 logo" href="index.html"></a>
 
@@ -56,10 +56,51 @@
     </header>
 
 <!--Main content of page-->
+<div id="contact-us-bg">
 
+<div class="container">
+    <div class="jumbotron">
+        <h1>Contact Us</h1>
+        <h2>Need to make a booking? Provide feedback?</h2>
+        <h3>Contact us using the form below</h3>
+    </div>
+</div>
+
+<form action="#">
+    <div class="container" id="contact-form">
+        <h3 id="contact-heading">Use the form below for enquiries</h3>
+        <div class="contact-text">*Name:</div>
+            <input type="text" placeholder="First name" required><br>
+            <input type="text" placeholder="Last name" required><br>
+        <div class="contact-text">*Email Address:</div>
+            <input type="text" placeholder="coffeemad@thecornercafe.com" name="mail" required>
+        <div class="contact-text">*Your message:</div>
+            <textarea placeholder="Enter your message here" rows="4" cols="50" required></textarea>
+        <div class="contact-text">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</form>
+
+<!--
+<form action="#">
+    <div class="container-fluid" id="contact-form">
+        <h3 id="contact-heading">Use the form below for enquiries</h3>
+        <div class=" container contact-text">*Name:</div>
+            <input type="text" placeholder="First name" required><br>
+            <input type="text" placeholder="Last name" required><br>
+        <div class=" container contact-text">*Email Address:</div>
+            <input type="email" placeholder="coffeemad@thecornercafe.com" id="email" required>
+        <div class=" container contact-text">*Your message:</div>
+            <input type="text" placeholder="Enter your message here" required><br>
+        <div class=" container contact-text">
+            <input type="submit" value="Send">
+        </div>
+    </div>
+</form>-->
 <!--Newsletter signup (Modified from https://www.w3schools.com/howto/howto_css_newsletter.asp)-->
 <form action="#">
-    <div class="container">
+    <div class="container contact-newsletter">
         <h3>Subscribe to our newsletter</h3>
         <p>and get 10% off your first order!</p>
         <p>Email Address:</p>
@@ -73,6 +114,7 @@
         <input type="submit" value="Subscribe Now!">
     </div>
 </form>
+</div>
 
 <!--Page footer and social media links (Followed tutorial and modified from 'User Centric Frontend Development Module | Putting It All Together | Mini Project with Bootstrap 4 > The Footer')-->
 <footer class="container-fluid">
