@@ -307,6 +307,58 @@ textarea {
     border: 1px solid #d50000;
 }
 
+/*----------Menu content*/
+
+#menu-bg {
+    background:url("../images/menu-bg.jpg");
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-size: cover;
+    padding: 0;
+    height: 100%;
+}
+
+#menu-box {
+    background-color: rgba(140, 140, 140, 0.8);
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+#menu-box h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-decoration:  underline;
+    text-decoration-style: double;
+}
+
+#menu-row {
+    border-top: solid 2px #fff;
+    padding: 10px;
+}
+
+.menu-heading {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.menu-items {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
 /*----------Newsletter Signup (Modified from https://www.w3schools.com/howto/howto_css_newsletter.asp)*/
 
 form {
@@ -357,6 +409,10 @@ form .contact-newsletter {
     text-shadow: 1px 1px #000;
 }
 
+form .menu-newsletter {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
 /*----------Footer*/
 
 footer {

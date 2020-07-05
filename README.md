@@ -78,5 +78,8 @@ Image 4. cafe-slide-4.jpeg - https://www.pexels.com/photo/sliced-cake-on-white-s
 The background used for the 'About Us' page is a free to use stock image, taken from:
 https://wallpaperaccess.com/coffee-4k
 
+The background used for the 'About Us' page is a free to use stock image, taken from:
+https://images6.alphacoders.com/373/373096.jpg
+
 #Acknowledgement
 
