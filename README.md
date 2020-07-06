@@ -47,8 +47,8 @@ Fixed navigation on all screen sizes
 
 ###Features left to implement
 
-*Add gallery
-*Add download link for menu
+More gallery images
+Improve menu
 
 ##Technologies Used
 
@@ -81,12 +81,19 @@ The image colors were altered to black using https://onlinepngtools.com/change-p
 Image 1. http://icon-library.com/icon/coffee-mug-icon-0.html
 Image 2. https://www.onlygfx.com/wp-content/uploads/2017/04/coffee-ring-4.png.
 
-The images used in the carousel in index.html are stock images, taken from pexels.com
+The images used in the carousel in index.html and gallery.html are stock images, taken from pexels.com
 
 Image 1. cafe-slide-1.jpeg - https://www.pexels.com/photo/beverage-break-breakfast-brown-414630/
 Image 2. cafe-slide-2.jpeg - https://www.pexels.com/photo/bokeh-cafe-chair-coffee-shop-597929/
 Image 3. cafe-slide-3.jpg - https://www.pexels.com/photo/beans-coffee-cup-mug-34079/
 Image 4. cafe-slide-4.jpeg - https://www.pexels.com/photo/sliced-cake-on-white-saucer-2144112/
+
+The images used in the carousel in gallery.html are stock images, taken from wallpaperaccess.com
+
+Image 5. gallery-slide-5.jpeg https://wallpaperaccess.com/sandwich
+Image 6. gallery-slide-6.jpeg https://wallpaperaccess.com/cookie
+Image 7. gallery-slide-7.jpeg https://wallpaperaccess.com/smoothie
+
 
 The background used for the 'About Us' page is a free to use stock image, taken from:
 https://wallpaperaccess.com/coffee-4k
@@ -94,8 +101,14 @@ https://wallpaperaccess.com/coffee-4k
 The background used for the 'Contact Us' page is a free to use stock image, taken from:
 https://images6.alphacoders.com/373/373096.jpg
 
-The background used for the 'Contact Us' page is a free to use stock image, taken from:
+The background used for the 'Menu' page is a free to use stock image, taken from:
 https://wall.alphacoders.com/by_sub_category.php?id=204408&name=Manchester+Wallpapers
+
+The background used for the 'Menu' page is a free to use stock image, taken from:
+https://wallpaperaccess.com/coffee-4k
+
+Menu.pdf was generated using
+https://app.lucidpress.com/
 
 #Acknowledgement
 
