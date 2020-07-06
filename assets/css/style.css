@@ -359,6 +359,29 @@ textarea {
     list-style-type: none;
 }
 
+/*----------Gallery Content*/
+
+#gallery-bg {
+    background:url("../images/gallery-bg.jpeg");
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-size: cover;
+    padding: 0;
+    height: 100%;
+}
+
+.gallery-heading {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.gallery-heading h1 {
+    padding: 10px;
+}
+
 /*----------Newsletter Signup (Modified from https://www.w3schools.com/howto/howto_css_newsletter.asp)*/
 
 form {
@@ -410,6 +433,11 @@ form .contact-newsletter {
 }
 
 form .menu-newsletter {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+form .gallery-newsletter {
     color: #fff;
     text-shadow: 1px 1px #000;
 }

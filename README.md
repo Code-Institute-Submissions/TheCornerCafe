@@ -19,6 +19,18 @@ Examples of user stories when using the website include:
 
 ###Existing Features
 
+*index.html features a carousel as the main feature to be eye-catching and attract users. Advertises the main products of the café.
+*The google map allows users to find the location accurately, as well as the address and opening hours alongside it. This makes navigation simple and reduces the number of clicks to reach the desired information.
+*Newsletter signup allows visitors to sign up to a newsletter to receive more information and offers.
+*Page header is eye catching and allows for quick and easy navigation, as well as being responsive on all display types.
+*Page footer provides additional links to other pages as well as a download link for the café menu for easy access.
+*Social media links for regular updates are also provided in the page footer.
+*about-us.html provides additional information about the establishment.
+*contact-us.html allows users to enquire for more information by providing their details for a response.
+*menu.html provides information abou the available products for prospective visitors.
+
+##Feature log
+
 Heading and navbar have been added. links to other pages.
 Styling to heading and nav items completed.
 Added FontAwesome icons to heading.
@@ -35,7 +47,8 @@ Fixed navigation on all screen sizes
 
 ###Features left to implement
 
-*add gallery, menu, and contact us form
+*Add gallery
+*Add download link for menu
 
 ##Technologies Used
 
@@ -78,8 +91,11 @@ Image 4. cafe-slide-4.jpeg - https://www.pexels.com/photo/sliced-cake-on-white-s
 The background used for the 'About Us' page is a free to use stock image, taken from:
 https://wallpaperaccess.com/coffee-4k
 
-The background used for the 'About Us' page is a free to use stock image, taken from:
+The background used for the 'Contact Us' page is a free to use stock image, taken from:
 https://images6.alphacoders.com/373/373096.jpg
+
+The background used for the 'Contact Us' page is a free to use stock image, taken from:
+https://wall.alphacoders.com/by_sub_category.php?id=204408&name=Manchester+Wallpapers
 
 #Acknowledgement
 
