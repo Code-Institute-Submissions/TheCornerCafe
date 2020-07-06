@@ -15,6 +15,9 @@ Examples of user stories when using the website include:
 *I am a prospective customer looking for a café with an interior that is relaxing whilst I work. I can see photos of the products and the café via the Gallery page
 *I am looking to make a reservation via the website. The form on the Contact Us page allows me to do this, and also provide feedback.
 
+Basic wireframe:
+https://balsamiq.cloud/sspi2lo/pq6l74j
+
 ##Features
 
 ###Existing Features
@@ -61,7 +64,20 @@ Improve menu
 
 ##Testing
 
+*The site has been thoroughly tested to make sure the content is responsive and displays on all screen resolutions. 
+*All links from all pages have been confirmed to work correctly, and no 404 errors aredisplayed.
+*The download menu link also correctly opens up Menu.pdf in a separate tab to allow users to download this.
+*Newsletter signup currently does not have an action as creating a functioning email newsletter is beyond the scope of this project.
+*All input boxes of forms for newsletter signup as well as in contact-us.html are required to prevent users from providing insufficient information.
+
+*All images are displayed correctly, however on larger screen sizes, background images can warp in some instances, but are still presentable.
+*Input forms do not currently display a success message.
+
+
 ##Deployment
+
+Project deployed using GitHub Pages, using gitpod to push to remote repository on Github, and then published.
+No differences between final development version and deployed version.
 
 ##Credits
 
